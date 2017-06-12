@@ -1,0 +1,68 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+
+
+
+
+.header{width: 500px;height: 50px;text-align: center;line-height: 50px;font-size:20px ;
+background: khaki;}
+.img-responsive{width: 200px;height: 200px;}
+.yi a:hover{text-decoration:none ;}
+.yi{background: url(../images/inde1.jpg) no-repeat center center;background-origin: border-box;width: 1200px;height: 800px;background-size:cover ;}
+.index{position: absolute;right: 300px;top: 400px;font-size:30px ;color: blueviolet;font-family: '楷体';}
+.index1{position: absolute;right: 300px;top: 480px;font-size:30px ;color: blueviolet;font-family: '楷体';}
+.login1{position: absolute;right: 300px;top: 570px;font-size:30px ;color: blueviolet;font-family: '楷体';width: 300px;background: #0b294f;color:blueviolet ;}
+
+.yi p{font-family: '楷体';font-size:50px ;color: #78a6d7;}
+.yi h1{font-family: '楷体';font-size:70px ;color: #2f5073;}
+.yi span{position: absolute;right: 310px;top: 620px;font-size:25px ;color: blueviolet;font-family: '楷体';}
+/*.yi .span1{color: #7aa6d7;position: absolute;right: 310px;top: 0px;font-size:25px ;}*/
+.er{background: url(../images/index.jpg) no-repeat center center;background-origin: border-box;width: 1200px;height: 800px;background-size:cover ;}
+
+.zhuce1{position: absolute;left: 550px;top:200px;font-size:30px ;font-family: '楷体';color: #5fb6e3;}
+.z-t{width:300px ;border-radius:10px ;margin-top: 20px;border: 0;background: #6691b1;}
+
+.san{background: url(../images/shou.jpg) no-repeat center center;background-origin: border-box;width: 1200px;height: 800px;background-size:cover ;}
+.san .huan{font-size:30px ;color: #79e2f5;font-family: '楷体';}
+.d{position: absolute;left: 600px;top: 500px;width: 200px;background: #41a2d5;color: #f0fff9;}
+.l{position: absolute;left: 600px;top: 550px;width: 200px;background: #41a2d5;color: #f0fff9;}
+.shi{font-size: 30px;font-family: '楷体';color:#b1e9f8 ;}
+.shi2{font-size: 30px;font-family: '楷体';color:#b1e9f8 ;}
+.shi1{font-size: 30px;font-family: '楷体';color:#b1e9f8 ;}
+.shi3{font-size: 25px;font-family: '楷体';float: right;margin-top: 30px;color: #1f326a;}
+.list-group .list-group-item{width: 200px;background-color:#2c62a8 ;color:#b1e9f8 ;font-family: '楷体';font-size: 20px;}
+
+.p1{float: right;background:#2c62a8 ;font-family: '楷体';color:#b1e9f8 ;font-size: 20px;}
+.p2{float: right;margin: 0 10px;background: #2c62a8;font-family: '楷体';color:#b1e9f8 ;font-size: 20px;}
+.p3{float: right;background: #2c62a8;font-family: '楷体';color:#b1e9f8 ;font-size: 20px;}
+
+.liu{float: right;width: 700px;height:700px;position: absolute;left: 350px;top:100px;font-size: 25px;font-family: '楷体';background: #a9e3f9;opacity: .7;color: #000828;overflow: auto;border-radius: 10px 10px;}
+.zi{margin-bottom:40px ;width: 700px;main-height:100px;background: #4575ae;}
+
+.img{width: 150px;height: 150px;background: url(../images/1.png) center center;background-size:cover ;margin-left: 20px;border-radius: 10px 10px;}
+
+.ge p{font-size: 25px;font-family: '楷体';color:#b1e9f8 ;}
+.ge p:nth-child(2){margin-left: 43px;}
+.ge p:nth-child(3){margin-left: 40px;}
+.ge p:nth-child(4){margin-left: 45px;}
+.ge p:nth-child(5){margin-left: 60px;}
+
+
+.ly{background: url(../images/3.jpg) no-repeat center center;background-origin: border-box;width: 1200px;height: 800px;background-size:cover ;}
+
+.ly {font-size: 25px;font-family: '楷体';color:#f6593a; ;}
+
+.ly .lol1{font-size: 25px;color: #fc1414;margin-top: 200px;}
+.ly .lol2{font-size: 25px;color: #fc1414;}
+
+.tu{position: fixed;right: 0;top: 100px;}
+.tu p{width:100px ;height: 230px;background: url(../images/j.png);font-size: 20px;font-family: '楷体';color:#56c2e6;}
+
+

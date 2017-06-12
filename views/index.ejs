@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+     
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.min.css"/>
+
+ 
+  </head>
+  <body class="san">
+<!--<embed src="../public/images/1.mp3" autostart="true" loop="true" hidden="false"></embed>-->
+  <embed src='../images/1.mp3' width=0 height=0 type=audio/mpeg loop="true" autostart="true"> 	
+  	<!--<%- include('header.ejs') %>-->
+  	<% if(!user){%>
+	    
+
+      
+            
+<p class="shi">黑，渐渐布满天空，无数的星挣破夜幕探出来，</p><p class="shi2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;夜的潮气在空气中漫漫地浸润，扩散出一种感伤的氛围。</p>
+<p class="shi1">&nbsp;&nbsp;&nbsp;仰望天空，求摸的星空格外澄净，悠远的星闪耀着，像细碎的泪花…… </p>
+
+<p class="shi3">——记录你的点点滴滴</p>
+
+<button  class="btn  d"onclick="location.href='/login'">登录</button>
+<button class="btn  l" onclick="location.href='/register'">注册</button>
+
+  <% }else{ %>
+
+<span class="huan">欢迎来到<%- user %>博客</span>
+<button class="btn p1"     onclick="location.href='/liuyan'">发表微博</button>
+<button class="btn p2" onclick="location.href='/login'">切换账号</button>
+<button class="btn p3" onclick="location.href='/login'">退出</button>
+
+
+<div class="ge">
+	<p class="img"></p>
+	<p>个人信息</p>
+	<p>获得的星星</p>
+	<p>发表文章</p>
+	<p>心愿</p>
+</div>
+
+<div class="tu">
+	<p>需要帮助吗？</p>
+</div>
+
+
+<ul class="list-group">
+    <li class="list-group-item">随便说说</li>
+    <li class="list-group-item">听听音乐</li>
+    <li class="list-group-item">看看书籍</li>
+    <li class="list-group-item">写下心情</li>
+    <li class="list-group-item">相册</li>
+    <li class="list-group-item">设置</li>
+</ul>
+<div class="liu">
+    <table class="table ">
+
+    	<tr>
+    		<% result.forEach(function(item,i){ %>
+    			<tr class="zi">
+    				<p>&nbsp;&nbsp;&nbsp;<%- user %>:《<%- item.title %>》<br />	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<%- item.content %></p>
+    			
+    			
+    			</tr>
+    			
+    			<% }) %>
+    	</tr>
+</table>
+</div>
+
+
+<% } %>
+  </body>
+</html>

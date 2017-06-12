@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="stylesheets/style.css"/>
+<link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.min.css"/>
+  </head>
+  <body class="ly">
+  	<embed src="../images/b.mp3" autostart="true" loop="true" hidden="false"></embed>
+  	<!--<%- include('header.ejs') %>-->
+    <form action="/users/liuyan" method="post">
+  
+    	<div>题目<input type="text" style="width: 300px;margin-left:400px ;" class="form-control" name="bt"/></div>
+    	<div>博客内容：<textarea name="txt" rows="10" class="form-control"></textarea></div>
+    	<input type="submit" value="发表微博" class="btn btn-group" style="background: #f3bfb5;margin-left: 500px;">
+    </form>
+
+    <!--<h2>留言显示</h2>
+    <table class="table table-striped">
+    	<tr><th>序号</th>
+    		<th>标题</th>
+    		<th>内容</th>
+    	</tr>
+    	<tr>
+    		<% result.forEach(function(item,i){ %>
+    			<tr>
+    				<td><%- i %></td>
+    				<td><%- item.title %></td>
+    				<td><%- item.content %></td>
+    			</tr>
+    			
+    			<% }) %>
+    	</tr>-->
+    	<p class="lol1">若无缘，六道之间三千大千世界，百万菩提众生，为何与我笑颜独展，惟独与汝相见？</p>
+    	<p class="lol2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;若有缘，待到灯花百结之后，三尺之雪，一夜发白，至此无语，却只有灰烬，没有复燃？</p>
+    </table>
+  </body>
+</html>
